@@ -1,0 +1,28 @@
+.all-pokemon{
+  display:inline-table;
+  flex-wrap: wrap;
+}
+
+.pokemon-card{
+  border: 5px solid black;
+  display: inline-table;
+  width: 500px;
+  margin: 10px 30px;
+  background-color: white;
+}
+
+.image{
+  display: block;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.name{
+  border: 1px solid black;
+  text-align: center;
+  text-transform: capitalize;
+}
